@@ -1,0 +1,12 @@
+[
+  { "english": "Milk", "korean": "우유", "romanization": "uyu" },
+  { "english": "Tree", "korean": "나무", "romanization": "namu" },
+  { "english": "Child", "korean": "아이", "romanization": "ai" },
+  { "english": "Shoe", "korean": "구두", "romanization": "gudu" },
+  { "english": "Pants", "korean": "바지", "romanization": "baji" },
+  { "english": "Sea", "korean": "바다", "romanization": "bada" },
+  { "english": "Hat", "korean": "모자", "romanization": "moja" },
+  { "english": "Apple", "korean": "사과", "romanization": "sagwa" },
+  { "english": "Water", "korean": "물", "romanization": "mul" },
+  { "english": "School", "korean": "학교", "romanization": "hakgyo" }
+]
