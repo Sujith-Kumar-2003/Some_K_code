@@ -11,11 +11,9 @@ def load_words(filepath="data/daily_words.json"):
         return json.load(file)
 
 def check_answer(user_input, current_word):
-    # Checks if they typed the correct romanization
     return user_input.strip().lower() == current_word["romanization"].lower()
 
 def get_hint(current_word):
-    # Since you are looking at the Hangul, the hint now gives the English meaning
     first_letter = current_word["romanization"][0]
     return f"Hint: It means '{current_word['english']}' and the romanization starts with '{first_letter}'"
 
@@ -37,7 +35,6 @@ if "words" not in st.session_state:
     st.session_state.current_index = 0
     st.session_state.quiz_complete = False
     
-    # CHANGED: Now showing the Korean word
     first_word = st.session_state.words[0]["korean"]
     st.session_state.messages = [
         {"role": "assistant", "content": f"Welcome! Let's practice {len(st.session_state.words)} words today. Read the Hangul and type the romanization for: **{first_word}**"}
@@ -62,7 +59,6 @@ if not st.session_state.quiz_complete:
                 st.session_state.current_index += 1
                 
                 if st.session_state.current_index < len(st.session_state.words):
-                    # CHANGED: Show the next Korean word
                     next_word_kor = st.session_state.words[st.session_state.current_index]["korean"]
                     reply = f"Correct! 🎉 Next word: **{next_word_kor}**"
                 else:
