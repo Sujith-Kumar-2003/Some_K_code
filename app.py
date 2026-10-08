@@ -1,5 +1,6 @@
 import json
 import streamlit as st
+import difflib
 
 # 1. Page Configuration
 st.set_page_config(page_title="Korean Daily Practice", page_icon="🇰🇷")
@@ -11,7 +12,14 @@ def load_words(filepath="data/daily_words.json"):
         return json.load(file)
 
 def check_answer(user_input, current_word):
-    return user_input.strip().lower() == current_word["romanization"].lower()
+    user_str = user_input.strip().lower()
+    target_str = current_word["romanization"].lower()
+    
+    # Calculate how similar the two strings are (returns a float between 0.0 and 1.0)
+    similarity = difflib.SequenceMatcher(None, user_str, target_str).ratio()
+    
+    # Return True if it's an exact match OR if it's at least 80% correct
+    return similarity >= 0.80
 
 def get_hint(current_word):
     first_letter = current_word["romanization"][0]
