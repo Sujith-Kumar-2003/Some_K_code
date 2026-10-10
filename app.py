@@ -2,8 +2,9 @@ import json
 import streamlit as st
 import difflib
 import random
+import re
 
-# 1. Page Configuration & Custom CSS (Upgraded UI)
+# 1. Page Configuration & Custom CSS
 st.set_page_config(page_title="Korean Daily Practice", page_icon="🇰🇷", layout="centered")
 
 st.markdown("""
@@ -23,7 +24,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.title("🇰🇷 Daily Korean Practice")
-st.markdown("Test your Hangul reading skills! Type the romanization or English meaning.")
+st.markdown("Test your Hangul reading skills! Type BOTH the romanization and English.")
 st.divider()
 
 # 2. Logic Functions
@@ -32,30 +33,25 @@ def load_words(filepath="data/daily_words.json"):
         return json.load(file)
 
 def check_answer(user_input, current_word):
-    user_str = user_input.strip().lower()
+    # Replace slashes with spaces, then split and rejoin to remove any extra spaces
+    clean_user = " ".join(user_input.replace("/", " ").lower().split())
     
-    # Combine both romanization AND english into a single list of acceptable answers
-    targets = current_word["romanization"].split("/") + current_word["english"].split("/")
-    target_options = [option.strip().lower() for option in targets]
+    # Do the exact same thing to the target answer (no slash needed here anymore)
+    clean_target = f"{current_word['romanization'].lower()} {current_word['english'].lower()}"
+    clean_target = " ".join(clean_target.split())
     
-    best_score = 0.0
-    for target in target_options:
-        score = difflib.SequenceMatcher(None, user_str, target).ratio()
-        if score > best_score:
-            best_score = score
-            
-    return best_score
+    return difflib.SequenceMatcher(None, clean_user, clean_target).ratio()
 
 def get_hint(current_word):
-    first_letter = current_word["romanization"].split("/")[0].strip()[0]
-    return f"<span class='hint-text'>💡 Hint: It means '{current_word['english']}' and starts with '{first_letter}'</span>"
+    first_letter = current_word["romanization"][0].lower()
+    return f"<span class='hint-text'>💡 Hint: Type both! Format it like '{first_letter}... / {current_word['english'].lower()}' or just use a space!</span>"
 
 def render_chat_history():
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"], unsafe_allow_html=True)
 
-# 3. Sidebar UI (Progress tracking)
+# 3. Sidebar UI
 with st.sidebar:
     st.header("📊 Your Progress")
     
@@ -83,7 +79,7 @@ if "words" not in st.session_state:
     
     first_word = st.session_state.words[0]["korean"]
     st.session_state.messages = [
-        {"role": "assistant", "content": f"Welcome! Let's practice {len(st.session_state.words)} words today.\n\n<div class='big-korean'>{first_word}</div>"}
+        {"role": "assistant", "content": f"Welcome! Let's practice {len(st.session_state.words)} words today.\n\n**Rule:** Type the romanization AND the english separated by a slash or a space (e.g., *'uyu / milk'* or *'uyu milk'*).\n\n<div class='big-korean'>{first_word}</div>"}
     ]
 
 # 5. Draw the Chat UI
@@ -91,7 +87,7 @@ render_chat_history()
 
 # 6. Handle User Input
 if not st.session_state.quiz_complete:
-    user_input = st.chat_input("Type the romanization or English...")
+    user_input = st.chat_input("Type 'romanization / english' or 'romanization english'...")
     
     if user_input:
         st.session_state.messages.append({"role": "user", "content": user_input})
@@ -106,11 +102,13 @@ if not st.session_state.quiz_complete:
             if similarity >= 0.80:
                 st.session_state.current_index += 1
                 
+                # Keep the UI exact answer formatted with a slash so it still looks clean
+                exact_answer = f"{current_word['romanization']} / {current_word['english']}".lower()
+                
                 if similarity == 1.0:
                     prefix = "✅ **Correct!** 🎉"
                 else:
-                    exact_rom = current_word["romanization"].replace("/", " or ")
-                    prefix = f"⚠️ **Close enough!** Nice try, but the exact spelling is **{exact_rom}**."
+                    prefix = f"⚠️ **Close enough!** Nice try, but the exact spelling is **{exact_answer}**."
                 
                 if st.session_state.current_index < len(st.session_state.words):
                     next_word_kor = st.session_state.words[st.session_state.current_index]["korean"]
