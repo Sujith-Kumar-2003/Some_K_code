@@ -1,1 +1,10 @@
 need to change the word milk. tree to hanhgeul so its easy for me to complete
+
+add like a page like with all the hangeul page with all the words and when i click at some of the letter it should be read out loud and also like add this tab to the sidebar
+
+need to add a story page with images maybe like a story book for kids that maybe helpful for me 
+
+maybe a more prettier ui thast doesnt suck
+
+need to near match so the english word match needs not to be perfect
+

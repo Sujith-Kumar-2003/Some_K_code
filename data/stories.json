@@ -1,0 +1,751 @@
+[
+  {
+    "title": "The Beach Trip 🌊",
+    "pages": [
+      {
+        "illustration": "🧒 🌊",
+        "korean": "아이가 바다에 갑니다.",
+        "romanization": "ai-ga bada-e gamnida.",
+        "english": "The child goes to the sea."
+      },
+      {
+        "illustration": "🧢 👖",
+        "korean": "아이는 모자와 바지를 입습니다.",
+        "romanization": "ai-neun moja-wa baji-reul ipseumnida.",
+        "english": "The child wears a hat and pants."
+      },
+      {
+        "illustration": "🍎 🥛",
+        "korean": "아이가 사과를 먹고 우유를 마십니다.",
+        "romanization": "ai-ga sagwa-reul meokgo uyu-reul masimnida.",
+        "english": "The child eats an apple and drinks milk."
+      },
+      {
+        "illustration": "🧒 🌳",
+        "korean": "아이가 나무 아래에서 쉽니다.",
+        "romanization": "ai-ga namu arae-eseo swimnida.",
+        "english": "The child rests under the tree."
+      }
+    ]
+  },
+  {
+    "title": "Going to School 🎒",
+    "pages": [
+      {
+        "illustration": "🧒 🏫",
+        "korean": "아이가 학교에 갑니다.",
+        "romanization": "ai-ga hakgyo-e gamnida.",
+        "english": "The child goes to school."
+      },
+      {
+        "illustration": "👞 💧",
+        "korean": "아이는 구두를 신고 물을 마십니다.",
+        "romanization": "ai-neun gudu-reul singo mul-eul masimnida.",
+        "english": "The child wears shoes and drinks water."
+      }
+    ]
+  },
+  {
+    "title": "나의 강아지 🐶",
+    "pages": [
+      {
+        "illustration": "🐕🐾",
+        "korean": "저는 강아지가 있습니다.",
+        "romanization": "jeoneun gangajiga itseumnida.",
+        "english": "I have a dog."
+      },
+      {
+        "illustration": "🦴😊",
+        "korean": "강아지는 정말 귀엽습니다.",
+        "romanization": "gangajineun jeongmal gwiyeopseumnida.",
+        "english": "The dog is really cute."
+      }
+    ]
+  },
+  {
+    "title": "빨간 사과 🍎",
+    "pages": [
+      {
+        "illustration": "🌳🍏",
+        "korean": "이것은 사과입니다.",
+        "romanization": "igeoseun sagwaimnida.",
+        "english": "This is an apple."
+      },
+      {
+        "illustration": "🔴😋",
+        "korean": "사과는 빨간색입니다.",
+        "romanization": "sagwaneun ppalgansaegimnida.",
+        "english": "The apple is red."
+      },
+      {
+        "illustration": "🍎🍴",
+        "korean": "저는 사과를 먹습니다.",
+        "romanization": "jeoneun sagwareul meokseumnida.",
+        "english": "I eat the apple."
+      }
+    ]
+  },
+  {
+    "title": "나의 가족 👨‍👩‍👧",
+    "pages": [
+      {
+        "illustration": "🏡👨‍👩‍👧",
+        "korean": "우리 가족입니다.",
+        "romanization": "uri gajogimnida.",
+        "english": "This is my family."
+      },
+      {
+        "illustration": "👩‍👧‍👦💖",
+        "korean": "저는 엄마와 아빠를 사랑합니다.",
+        "romanization": "jeoneun eommawa appareul saranghamnida.",
+        "english": "I love my mom and dad."
+      }
+    ]
+  },
+  {
+    "title": "큰 집 🏠",
+    "pages": [
+      {
+        "illustration": "🏘️🌳",
+        "korean": "저기 집이 있습니다.",
+        "romanization": "jeogi jibi itseumnida.",
+        "english": "There is a house."
+      },
+      {
+        "illustration": "⬆️🏡",
+        "korean": "집은 정말 큽니다.",
+        "romanization": "jibeun jeongmal keumnida.",
+        "english": "The house is really big."
+      }
+    ]
+  },
+  {
+    "title": "파란 새 🐦",
+    "pages": [
+      {
+        "illustration": "🌳🦋",
+        "korean": "하늘에 새가 날아갑니다.",
+        "romanization": "haneure saega naragamnida.",
+        "english": "A bird flies in the sky."
+      },
+      {
+        "illustration": "💙🐦",
+        "korean": "새는 파란색입니다.",
+        "romanization": "saeneun paransaegimnida.",
+        "english": "The bird is blue."
+      }
+    ]
+  },
+  {
+    "title": "맛있는 빵 🍞",
+    "pages": [
+      {
+        "illustration": "🥖🥐",
+        "korean": "저는 빵을 좋아합니다.",
+        "romanization": "jeoneun ppangeul joahamnida.",
+        "english": "I like bread."
+      },
+      {
+        "illustration": "🍞😋",
+        "korean": "빵은 맛있습니다.",
+        "romanization": "ppangeun masisseumnida.",
+        "english": "The bread is delicious."
+      }
+    ]
+  },
+  {
+    "title": "학교에 갑니다 🏫",
+    "pages": [
+      {
+        "illustration": "🎒🚶",
+        "korean": "저는 학교에 갑니다.",
+        "romanization": "jeoneun hakgyoe gamnida.",
+        "english": "I go to school."
+      },
+      {
+        "illustration": "📚✏️",
+        "korean": "저는 학교에서 공부합니다.",
+        "romanization": "jeoneun hakgyoeseo gongbuhamnida.",
+        "english": "I study at school."
+      }
+    ]
+  },
+  {
+    "title": "새 책 📖",
+    "pages": [
+      {
+        "illustration": "📚✨",
+        "korean": "새 책을 샀습니다.",
+        "romanization": "sae chaegeul satseumnida.",
+        "english": "I bought a new book."
+      },
+      {
+        "illustration": "📖🤓",
+        "korean": "저는 책을 읽습니다.",
+        "romanization": "jeoneun chaegeul ikseumnida.",
+        "english": "I read the book."
+      }
+    ]
+  },
+  {
+    "title": "공원에서 놀아요 🏞️",
+    "pages": [
+      {
+        "illustration": "🌳🌷",
+        "korean": "저는 공원에 갑니다.",
+        "romanization": "jeoneun gongwone gamnida.",
+        "english": "I go to the park."
+      },
+      {
+        "illustration": "⚽️🤸",
+        "korean": "공원에서 친구와 놉니다.",
+        "romanization": "gongwonese chinguwa nopnida.",
+        "english": "I play with friends in the park."
+      }
+    ]
+  },
+  {
+    "title": "맛있는 우유 🥛",
+    "pages": [
+      {
+        "illustration": "🥛🐄",
+        "korean": "저는 우유를 마십니다.",
+        "romanization": "jeoneun uyureul masimnida.",
+        "english": "I drink milk."
+      },
+      {
+        "illustration": "😋🍶",
+        "korean": "우유는 고소합니다.",
+        "romanization": "uyuneun gosoahamnida.",
+        "english": "The milk is savory/nutty."
+      }
+    ]
+  },
+  {
+    "title": "나의 고양이 🐱",
+    "pages": [
+      {
+        "illustration": "🐈🐾",
+        "korean": "저는 고양이를 키웁니다.",
+        "romanization": "jeoneun goyangireul kiwumnida.",
+        "english": "I raise a cat."
+      },
+      {
+        "illustration": "😻💤",
+        "korean": "고양이는 잠을 많이 잡니다.",
+        "romanization": "goyangineun jameul mani jamnida.",
+        "english": "The cat sleeps a lot."
+      }
+    ]
+  },
+  {
+    "title": "노란 바나나 🍌",
+    "pages": [
+      {
+        "illustration": "🍌🌴",
+        "korean": "이것은 바나나입니다.",
+        "romanization": "igeoseun bananaimnida.",
+        "english": "This is a banana."
+      },
+      {
+        "illustration": "🟡😋",
+        "korean": "바나나는 노란색입니다.",
+        "romanization": "banananeun noransaegimnida.",
+        "english": "The banana is yellow."
+      }
+    ]
+  },
+  {
+    "title": "아침 식사 🍳",
+    "pages": [
+      {
+        "illustration": "☀️⏰",
+        "korean": "아침이 밝았습니다.",
+        "romanization": "achimi balgasseumnida.",
+        "english": "Morning has broken."
+      },
+      {
+        "illustration": "🍚🥣",
+        "korean": "저는 아침을 먹습니다.",
+        "romanization": "jeoneun achimeul meokseumnida.",
+        "english": "I eat breakfast."
+      }
+    ]
+  },
+  {
+    "title": "푸른 하늘 ☁️",
+    "pages": [
+      {
+        "illustration": "☀️☁️",
+        "korean": "하늘이 아주 맑습니다.",
+        "romanization": "haneuri aju makseumnida.",
+        "english": "The sky is very clear."
+      },
+      {
+        "illustration": "💙✨",
+        "korean": "하늘은 파란색입니다.",
+        "romanization": "haneureun paransaegimnida.",
+        "english": "The sky is blue."
+      }
+    ]
+  },
+  {
+    "title": "작은 물고기 🐠",
+    "pages": [
+      {
+        "illustration": "🐟🌊",
+        "korean": "물고기가 물속에 있습니다.",
+        "romanization": "mulgogiga mulsoge itseumnida.",
+        "english": "There is a fish in the water."
+      },
+      {
+        "illustration": "🤏🐠",
+        "korean": "물고기는 아주 작습니다.",
+        "romanization": "mulgogineun aju jakseumnida.",
+        "english": "The fish is very small."
+      }
+    ]
+  },
+  {
+    "title": "자동차를 운전합니다 🚗",
+    "pages": [
+      {
+        "illustration": "🛣️🚙",
+        "korean": "저는 자동차를 운전합니다.",
+        "romanization": "jeoneun jadongchareul unjeonhamnida.",
+        "english": "I drive a car."
+      },
+      {
+        "illustration": "💨🚗",
+        "korean": "자동차는 빠릅니다.",
+        "romanization": "jadongchaneun ppareumnida.",
+        "english": "The car is fast."
+      }
+    ]
+  },
+  {
+    "title": "아름다운 꽃 🌸",
+    "pages": [
+      {
+        "illustration": "🌷🌼",
+        "korean": "예쁜 꽃이 피었습니다.",
+        "romanization": "yeppeun kkochi pieosseumnida.",
+        "english": "A pretty flower has bloomed."
+      },
+      {
+        "illustration": "💖✨",
+        "korean": "꽃은 정말 아름답습니다.",
+        "romanization": "kkocheun jeongmal areumdapseumnida.",
+        "english": "The flower is really beautiful."
+      }
+    ]
+  },
+  {
+    "title": "펜과 공책 🖊️",
+    "pages": [
+      {
+        "illustration": "✍️📝",
+        "korean": "저는 펜과 공책이 있습니다.",
+        "romanization": "jeoneun pengwa gongchaegi itseumnida.",
+        "english": "I have a pen and a notebook."
+      },
+      {
+        "illustration": "🗒️✒️",
+        "korean": "저는 공책에 글을 씁니다.",
+        "romanization": "jeoneun gongchaege geureul sseumnida.",
+        "english": "I write in the notebook."
+      }
+    ]
+  },
+  {
+    "title": "컵에 물 💧",
+    "pages": [
+      {
+        "illustration": "🚰🥤",
+        "korean": "컵에 물이 있습니다.",
+        "romanization": "keobe muli itseumnida.",
+        "english": "There is water in the cup."
+      },
+      {
+        "illustration": "💧😋",
+        "korean": "저는 물을 마십니다.",
+        "romanization": "jeoneun mureul masimnida.",
+        "english": "I drink water."
+      }
+    ]
+  },
+  {
+    "title": "버스 정류장 🚌",
+    "pages": [
+      {
+        "illustration": "🛑🚌",
+        "korean": "저는 버스 정류장에 있습니다.",
+        "romanization": "jeoneun beoseu jeongnyujange itseumnida.",
+        "english": "I am at the bus stop."
+      },
+      {
+        "illustration": "🚍👨‍👩‍👧‍👦",
+        "korean": "버스가 옵니다.",
+        "romanization": "beoseuga omnida.",
+        "english": "The bus is coming."
+      }
+    ]
+  },
+  {
+    "title": "곰 인형 🧸",
+    "pages": [
+      {
+        "illustration": "🐻🎁",
+        "korean": "저는 곰 인형을 받았습니다.",
+        "romanization": "jeoneun gom inhyeongeul badatseumnida.",
+        "english": "I received a bear doll."
+      },
+      {
+        "illustration": "💖🧸",
+        "korean": "곰 인형은 부드럽습니다.",
+        "romanization": "gom inhyeongeun budeureopseumnida.",
+        "english": "The bear doll is soft."
+      }
+    ]
+  },
+  {
+    "title": "맛있는 케이크 🍰",
+    "pages": [
+      {
+        "illustration": "🎂🎉",
+        "korean": "생일 케이크입니다.",
+        "romanization": "saengil keikeuimnida.",
+        "english": "It is a birthday cake."
+      },
+      {
+        "illustration": "🍓🍰",
+        "korean": "케이크는 달콤합니다.",
+        "romanization": "keikeuneun dalkomhamnida.",
+        "english": "The cake is sweet."
+      }
+    ]
+  },
+  {
+    "title": "초록색 나무 🌳",
+    "pages": [
+      {
+        "illustration": "🌲🍃",
+        "korean": "저기에 나무가 있습니다.",
+        "romanization": "jeogie namuga itseumnida.",
+        "english": "There is a tree over there."
+      },
+      {
+        "illustration": "💚🌳",
+        "korean": "나무는 초록색입니다.",
+        "romanization": "namuneun choroksaegimnida.",
+        "english": "The tree is green."
+      }
+    ]
+  },
+  {
+    "title": "아기 침대 👶",
+    "pages": [
+      {
+        "illustration": "🍼🛌",
+        "korean": "아기가 잠을 잡니다.",
+        "romanization": "agiga jameul jamnida.",
+        "english": "The baby is sleeping."
+      },
+      {
+        "illustration": "👼😴",
+        "korean": "아기는 작고 귀엽습니다.",
+        "romanization": "agineun jakgo gwiyeopseumnida.",
+        "english": "The baby is small and cute."
+      }
+    ]
+  },
+  {
+    "title": "비가 옵니다 🌧️",
+    "pages": [
+      {
+        "illustration": "☔️💧",
+        "korean": "밖에 비가 옵니다.",
+        "romanization": "bakke biga omnida.",
+        "english": "It is raining outside."
+      },
+      {
+        "illustration": "☂️💦",
+        "korean": "저는 우산을 씁니다.",
+        "romanization": "jeoneun usaneul sseumnida.",
+        "english": "I use an umbrella."
+      }
+    ]
+  },
+  {
+    "title": "따뜻한 커피 ☕",
+    "pages": [
+      {
+        "illustration": "☕️🔥",
+        "korean": "이것은 커피입니다.",
+        "romanization": "igeoseun keopiimnida.",
+        "english": "This is coffee."
+      },
+      {
+        "illustration": "♨️😋",
+        "korean": "커피는 따뜻합니다.",
+        "romanization": "keopineun ttatteuthamnida.",
+        "english": "The coffee is warm."
+      }
+    ]
+  },
+  {
+    "title": "밤하늘의 별 ✨",
+    "pages": [
+      {
+        "illustration": "🌃🌙",
+        "korean": "밤이 되었습니다.",
+        "romanization": "bami doeeotseumnida.",
+        "english": "It has become night."
+      },
+      {
+        "illustration": "🌟💫",
+        "korean": "하늘에 별이 빛납니다.",
+        "romanization": "haneure byeori bitnamnida.",
+        "english": "Stars shine in the sky."
+      }
+    ]
+  },
+  {
+    "title": "앉아 있는 의자 🪑",
+    "pages": [
+      {
+        "illustration": "🛋️🪑",
+        "korean": "여기에 의자가 있습니다.",
+        "romanization": "yeogie uijaga itseumnida.",
+        "english": "There is a chair here."
+      },
+      {
+        "illustration": "🪑앉아",
+        "korean": "저는 의자에 앉습니다.",
+        "romanization": "jeoneun uijae anjseumnida.",
+        "english": "I sit on the chair."
+      }
+    ]
+  },
+  {
+    "title": "맛있는 밥 🍚",
+    "pages": [
+      {
+        "illustration": "🍚🥣",
+        "korean": "저는 밥을 먹습니다.",
+        "romanization": "jeoneun babeul meokseumnida.",
+        "english": "I eat rice."
+      },
+      {
+        "illustration": "😋🥄",
+        "korean": "밥은 맛있습니다.",
+        "romanization": "babeun masisseumnida.",
+        "english": "The rice is delicious."
+      }
+    ]
+  },
+  {
+    "title": "자전거를 탑니다 🚴",
+    "pages": [
+      {
+        "illustration": "🚲🛣️",
+        "korean": "저는 자전거를 탑니다.",
+        "romanization": "jeoneun jayeongeoreul tamnida.",
+        "english": "I ride a bicycle."
+      },
+      {
+        "illustration": "💨🚴",
+        "korean": "자전거를 타고 운동합니다.",
+        "romanization": "jajeongeoreul tago undonghamnida.",
+        "english": "I exercise by riding a bicycle."
+      }
+    ]
+  },
+  {
+    "title": "색연필 🖍️",
+    "pages": [
+      {
+        "illustration": "🎨✏️",
+        "korean": "저는 색연필이 많습니다.",
+        "romanization": "jeoneun saengnyeonpili manseumnida.",
+        "english": "I have many colored pencils."
+      },
+      {
+        "illustration": "🖍️🖼️",
+        "korean": "색연필로 그림을 그립니다.",
+        "romanization": "saengnyeonpillo geurimeul geurimnida.",
+        "english": "I draw a picture with colored pencils."
+      }
+    ]
+  },
+  {
+    "title": "노래를 들어요 🎶",
+    "pages": [
+      {
+        "illustration": "🎧🎵",
+        "korean": "저는 음악을 좋아합니다.",
+        "romanization": "jeoneun eumageul joahamnida.",
+        "english": "I like music."
+      },
+      {
+        "illustration": "🔊🎶",
+        "korean": "매일 노래를 듣습니다.",
+        "romanization": "maeil noraereul deutseumnida.",
+        "english": "I listen to songs every day."
+      }
+    ]
+  },
+  {
+    "title": "빨래를 합니다 🧺",
+    "pages": [
+      {
+        "illustration": "👕👖",
+        "korean": "옷이 더럽습니다.",
+        "romanization": "osi deoreopseumnida.",
+        "english": "The clothes are dirty."
+      },
+      {
+        "illustration": "🧼🧺",
+        "korean": "저는 빨래를 합니다.",
+        "romanization": "jeoneun ppallaereul hamnida.",
+        "english": "I do laundry."
+      }
+    ]
+  },
+  {
+    "title": "시계 ⏰",
+    "pages": [
+      {
+        "illustration": "🕰️⏰",
+        "korean": "벽에 시계가 걸려 있습니다.",
+        "romanization": "byeoge sigyega geollyeo itseumnida.",
+        "english": "A clock is hanging on the wall."
+      },
+      {
+        "illustration": "⏱️⌛",
+        "korean": "시계는 시간을 알려줍니다.",
+        "romanization": "sigyeneun siganeul allyeojumnida.",
+        "english": "The clock tells time."
+      }
+    ]
+  },
+  {
+    "title": "생선을 구워요 🐟",
+    "pages": [
+      {
+        "illustration": "🎣🌊",
+        "korean": "시장에서 생선을 샀습니다.",
+        "romanization": "sijangeseo saengseoneul satseumnida.",
+        "english": "I bought fish at the market."
+      },
+      {
+        "illustration": "🔥🐟",
+        "korean": "저는 생선을 굽습니다.",
+        "romanization": "jeoneun saengseoneul gupseumnida.",
+        "english": "I grill the fish."
+      }
+    ]
+  },
+  {
+    "title": "공을 찹니다 ⚽",
+    "pages": [
+      {
+        "illustration": "🥅⚽",
+        "korean": "저는 축구공이 있습니다.",
+        "romanization": "jeoneun chukgugongi itseumnida.",
+        "english": "I have a soccer ball."
+      },
+      {
+        "illustration": "🦵⚽",
+        "korean": "공을 힘껏 찹니다.",
+        "romanization": "gongeul himkkeot chamnida.",
+        "english": "I kick the ball hard."
+      }
+    ]
+  },
+  {
+    "title": "텔레비전을 봅니다 📺",
+    "pages": [
+      {
+        "illustration": "📺🛋️",
+        "korean": "저는 텔레비전을 봅니다.",
+        "romanization": "jeoneun tellebijeoneul bomnida.",
+        "english": "I watch television."
+      },
+      {
+        "illustration": "🍿🎬",
+        "korean": "재미있는 영화를 봅니다.",
+        "romanization": "jaemiinneun yeonghwareul bomnida.",
+        "english": "I watch an interesting movie."
+      }
+    ]
+  },
+  {
+    "title": "침대에서 잠을 자요 🛌",
+    "pages": [
+      {
+        "illustration": "🌙😴",
+        "korean": "밤에는 잠을 잡니다.",
+        "romanization": "bameneun jameul jamnida.",
+        "english": "I sleep at night."
+      },
+      {
+        "illustration": "💤🛏️",
+        "korean": "저는 침대에서 잡니다.",
+        "romanization": "jeoneun chimdaeeseo jamnida.",
+        "english": "I sleep in bed."
+      }
+    ]
+  },
+  {
+    "title": "산책해요 🚶‍♀️",
+    "pages": [
+      {
+        "illustration": "🌳🚶",
+        "korean": "저는 밖으로 나갑니다.",
+        "romanization": "jeoneun bakkeuro nagamnida.",
+        "english": "I go outside."
+      },
+      {
+        "illustration": "👣🌲",
+        "korean": "공원에서 산책합니다.",
+        "romanization": "gongwonese sanchaekhamnida.",
+        "english": "I take a walk in the park."
+      }
+    ]
+  },
+  {
+    "title": "추운 겨울 ❄️",
+    "pages": [
+      {
+        "illustration": "☃️🌬️",
+        "korean": "겨울은 춥습니다.",
+        "romanization": "gyeoureun chupsseumnida.",
+        "english": "Winter is cold."
+      },
+      {
+        "illustration": "🧤🧣",
+        "korean": "저는 따뜻한 옷을 입습니다.",
+        "romanization": "jeoneun ttatteuthan oseul ipseumnida.",
+        "english": "I wear warm clothes."
+      }
+    ]
+  },
+  {
+    "title": "도서관에 가요 📚",
+    "pages": [
+      {
+        "illustration": "🚶‍♀️🏛️",
+        "korean": "저는 도서관에 갑니다.",
+        "romanization": "jeoneun doseogwane gamnida.",
+        "english": "I go to the library."
+      },
+      {
+        "illustration": "📖🤫",
+        "korean": "도서관에서 책을 읽습니다.",
+        "romanization": "doseogwaneseo chaegeul ikseumnida.",
+        "english": "I read books at the library."
+      }
+    ]
+  }
+]
