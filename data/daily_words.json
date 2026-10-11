@@ -1,53 +1,362 @@
 [
-  { "english": "milk", "korean": "우유", "romanization": "uyu" },
-  { "english": "tree", "korean": "나무", "romanization": "namu" },
-  { "english": "child", "korean": "아이", "romanization": "ai" },
-  { "english": "shoe", "korean": "구두", "romanization": "gudu" },
-  { "english": "pants", "korean": "바지", "romanization": "baji" },
-  { "english": "sea", "korean": "바다", "romanization": "bada" },
-  { "english": "hat", "korean": "모자", "romanization": "moja" },
-  { "english": "apple", "korean": "사과", "romanization": "sagwa" },
-  { "english": "water", "korean": "물", "romanization": "mul" },
-  { "english": "school", "korean": "학교", "romanization": "hakgyo" },
-  { "english": "tissue", "korean": "휴지", "romanization": "hyuji" },
-  { "english": "wet wipes", "korean": "물티슈", "romanization": "multisyu" },
-  { "english": "lunch box", "korean": "도시락", "romanization": "dosirak" },
-  { "english": "chopsticks", "korean": "젓가락", "romanization": "jeotgarak" },
-  { "english": "spoon", "korean": "숟가락", "romanization": "sutgarak" },
-  { "english": "fork", "korean": "포크", "romanization": "pokeu" },
-  { "english": "plate", "korean": "접시", "romanization": "jeopsi" },
-  { "english": "ladle", "korean": "국자", "romanization": "gukja" },
-  { "english": "rice", "korean": "밥", "romanization": "bap" },
-  { "english": "pot", "korean": "냄비", "romanization": "naembi" },
-  { "english": "our", "korean": "우리", "romanization": "uri" },
-  { "english": "you", "korean": "니가", "romanization": "niga" },
-  { "english": "someone who knows suji well", "korean": "수잘알", "romanization": "sujalal" },
-  { "english": "i know suji well", "korean": "수지를 잘 알아", "romanization": "sujireul jal ara" },
-  { "english": "my wife", "korean": "내 와이프", "romanization": "nae waipeu" },
-  { "english": "our mom and dad", "korean": "우리 엄마 아빠", "romanization": "uri eomma appa" },
-  { "english": "my older brother", "korean": "우리 오빠", "romanization": "uri oppa" },
-  { "english": "my older sister", "korean": "우리 언니", "romanization": "uri eonni" },
-  { "english": "my younger sibling", "korean": "내 동생", "romanization": "nae dongsaeng" },
-  { "english": "married couple", "korean": "부부", "romanization": "bubu" },
-  { "english": "i am a teacher", "korean": "나는 선생님", "romanization": "naneun seonsaengnim" },
-  { "english": "student suji", "korean": "수지 학생", "romanization": "suji haksaeng" },
-  { "english": "it's fun", "korean": "재미나요", "romanization": "jaeminayo" },
-  { "english": "chapagetti", "korean": "짜파게티", "romanization": "jjapageti" },
-  { "english": "chirp chirp", "korean": "삐약삐약", "romanization": "ppiyakppiyak" },
-  { "english": "rabbit", "korean": "토끼", "romanization": "tokki" },
-  { "english": "strawberry", "korean": "딸기", "romanization": "ttalgi" },
-  { "english": "koala", "korean": "코알라", "romanization": "koalla" },
-  { "english": "looks delicious", "korean": "맛있겠다", "romanization": "masitgetda" },
-  { "english": "noodles", "korean": "면", "romanization": "myeon" },
-  { "english": "i", "korean": "나", "romanization": "na" },
-  { "english": "you", "korean": "너", "romanization": "neo" },
-  { "english": "my", "korean": "내", "romanization": "nae" },
-  { "english": "your", "korean": "네", "romanization": "ne" },
-  { "english": "this", "korean": "이것", "romanization": "igeot" },
-  { "english": "that", "korean": "그것", "romanization": "geugeot" },
-  { "english": "that", "korean": "저것", "romanization": "jeogeot" },
-  { "english": "here", "korean": "여기", "romanization": "yeogi" },
-  { "english": "there", "korean": "거기", "romanization": "geogi" },
-  { "english": "yes", "korean": "네", "romanization": "ne" },
-  { "english": "no", "korean": "아니요", "romanization": "aniyo" }
+  {
+    "english": "milk",
+    "korean": "우유",
+    "romanization": "uyu"
+  },
+  {
+    "english": "tree",
+    "korean": "나무",
+    "romanization": "namu"
+  },
+  {
+    "english": "child",
+    "korean": "아이",
+    "romanization": "ai"
+  },
+  {
+    "english": "shoe",
+    "korean": "구두",
+    "romanization": "gudu"
+  },
+  {
+    "english": "pants",
+    "korean": "바지",
+    "romanization": "baji"
+  },
+  {
+    "english": "sea",
+    "korean": "바다",
+    "romanization": "bada"
+  },
+  {
+    "english": "hat",
+    "korean": "모자",
+    "romanization": "moja"
+  },
+  {
+    "english": "apple",
+    "korean": "사과",
+    "romanization": "sagwa"
+  },
+  {
+    "english": "water",
+    "korean": "물",
+    "romanization": "mul"
+  },
+  {
+    "english": "school",
+    "korean": "학교",
+    "romanization": "hakgyo"
+  },
+  {
+    "english": "tissue",
+    "korean": "휴지",
+    "romanization": "hyuji"
+  },
+  {
+    "english": "wet wipes",
+    "korean": "물티슈",
+    "romanization": "multisyu"
+  },
+  {
+    "english": "lunch box",
+    "korean": "도시락",
+    "romanization": "dosirak"
+  },
+  {
+    "english": "chopsticks",
+    "korean": "젓가락",
+    "romanization": "jeotgarak"
+  },
+  {
+    "english": "spoon",
+    "korean": "숟가락",
+    "romanization": "sutgarak"
+  },
+  {
+    "english": "fork",
+    "korean": "포크",
+    "romanization": "pokeu"
+  },
+  {
+    "english": "plate",
+    "korean": "접시",
+    "romanization": "jeopsi"
+  },
+  {
+    "english": "ladle",
+    "korean": "국자",
+    "romanization": "gukja"
+  },
+  {
+    "english": "rice",
+    "korean": "밥",
+    "romanization": "bap"
+  },
+  {
+    "english": "pot",
+    "korean": "냄비",
+    "romanization": "naembi"
+  },
+  {
+    "english": "our",
+    "korean": "우리",
+    "romanization": "uri"
+  },
+  {
+    "english": "you",
+    "korean": "니가",
+    "romanization": "niga"
+  },
+  {
+    "english": "someone who knows suji well",
+    "korean": "수잘알",
+    "romanization": "sujalal"
+  },
+  {
+    "english": "i know suji well",
+    "korean": "수지를 잘 알아",
+    "romanization": "sujireul jal ara"
+  },
+  {
+    "english": "my wife",
+    "korean": "내 와이프",
+    "romanization": "nae waipeu"
+  },
+  {
+    "english": "our mom and dad",
+    "korean": "우리 엄마 아빠",
+    "romanization": "uri eomma appa"
+  },
+  {
+    "english": "my older brother",
+    "korean": "우리 오빠",
+    "romanization": "uri oppa"
+  },
+  {
+    "english": "my older sister",
+    "korean": "우리 언니",
+    "romanization": "uri eonni"
+  },
+  {
+    "english": "my younger sibling",
+    "korean": "내 동생",
+    "romanization": "nae dongsaeng"
+  },
+  {
+    "english": "married couple",
+    "korean": "부부",
+    "romanization": "bubu"
+  },
+  {
+    "english": "i am a teacher",
+    "korean": "나는 선생님",
+    "romanization": "naneun seonsaengnim"
+  },
+  {
+    "english": "student suji",
+    "korean": "수지 학생",
+    "romanization": "suji haksaeng"
+  },
+  {
+    "english": "it's fun",
+    "korean": "재미나요",
+    "romanization": "jaeminayo"
+  },
+  {
+    "english": "chapagetti",
+    "korean": "짜파게티",
+    "romanization": "jjapageti"
+  },
+  {
+    "english": "chirp chirp",
+    "korean": "삐약삐약",
+    "romanization": "ppiyakppiyak"
+  },
+  {
+    "english": "rabbit",
+    "korean": "토끼",
+    "romanization": "tokki"
+  },
+  {
+    "english": "strawberry",
+    "korean": "딸기",
+    "romanization": "ttalgi"
+  },
+  {
+    "english": "koala",
+    "korean": "코알라",
+    "romanization": "koalla"
+  },
+  {
+    "english": "looks delicious",
+    "korean": "맛있겠다",
+    "romanization": "masitgetda"
+  },
+  {
+    "english": "noodles",
+    "korean": "면",
+    "romanization": "myeon"
+  },
+  {
+    "english": "i",
+    "korean": "나",
+    "romanization": "na"
+  },
+  {
+    "english": "you",
+    "korean": "너",
+    "romanization": "neo"
+  },
+  {
+    "english": "my",
+    "korean": "내",
+    "romanization": "nae"
+  },
+  {
+    "english": "your",
+    "korean": "네",
+    "romanization": "ne"
+  },
+  {
+    "english": "this",
+    "korean": "이것",
+    "romanization": "igeot"
+  },
+  {
+    "english": "that",
+    "korean": "그것",
+    "romanization": "geugeot"
+  },
+  {
+    "english": "that",
+    "korean": "저것",
+    "romanization": "jeogeot"
+  },
+  {
+    "english": "here",
+    "korean": "여기",
+    "romanization": "yeogi"
+  },
+  {
+    "english": "there",
+    "korean": "거기",
+    "romanization": "geogi"
+  },
+  {
+    "english": "yes",
+    "korean": "네",
+    "romanization": "ne"
+  },
+  {
+    "english": "no",
+    "korean": "아니요",
+    "romanization": "aniyo"
+  },
+  {
+    "english": "bite",
+    "korean": "냠 깨물어버려",
+    "romanization": "nyam kkaemureobeoryeo"
+  },
+  {
+    "english": "i miss you",
+    "korean": "보거시퍼",
+    "romanization": "bogeosipeo"
+  },
+  {
+    "english": "thinking of eating kimchi fried rice with glass noodles",
+    "korean": "김치볶음밥이랑 당면으로 뭔갈 먹어볼까 생각중",
+    "romanization": "gimchibokkeumbabirang dangmyeoneuro mwongal meogeobolkka saenggakjung"
+  },
+  {
+    "english": "i'm hungry",
+    "korean": "배고파요",
+    "romanization": "j'ai faim"
+  },
+  {
+    "english": "ramen vs udon",
+    "korean": "라면 vs 우동",
+    "romanization": "ramyun vs udong"
+  },
+  {
+    "english": "udon noodles",
+    "korean": "우동사리",
+    "romanization": "udongsari"
+  },
+  {
+    "english": "beep",
+    "korean": "뺙",
+    "romanization": "ppyak"
+  },
+  {
+    "english": "love you",
+    "korean": "러브유",
+    "romanization": "reobeuyu"
+  },
+  {
+    "english": "love you",
+    "korean": "로으유",
+    "romanization": "roeuyu"
+  },
+  {
+    "english": "milk thank you",
+    "korean": "우유 감사함니다",
+    "romanization": "uyu gamsahamnida"
+  },
+  {
+    "english": "is it a farewell?",
+    "korean": "작별인가요?",
+    "romanization": "jakbyeoringayo?"
+  },
+  {
+    "english": "kim suji",
+    "korean": "김수지",
+    "romanization": "kim suji"
+  },
+  {
+    "english": "hangul is fun",
+    "korean": "하굴은재미있어요",
+    "romanization": "haguleunjaemiisseoyo"
+  },
+  {
+    "english": "spelling error is cute",
+    "korean": "철자오류 귀여워요",
+    "romanization": "cheoljaoryu gwiyeowoyo"
+  },
+  {
+    "english": "little spelling error",
+    "korean": "petit 철조오류",
+    "romanization": "petit cheoljooryu"
+  },
+  {
+    "english": "cute",
+    "korean": "귀여워요",
+    "romanization": "gwiyeowoyo"
+  },
+  {
+    "english": "good / i like it",
+    "korean": "좋아요",
+    "romanization": "joayo"
+  },
+  {
+    "english": "why",
+    "korean": "왜",
+    "romanization": "waae"
+  },
+  {
+    "english": "darling",
+    "korean": "여보",
+    "romanization": "yeobo"
+  },
+  {
+    "english": "idiot",
+    "korean": "바보",
+    "romanization": "babo"
+  },
+  {
+    "english": "hello",
+    "korean": "여보세요",
+    "romanization": "yeoboseyo"
+  }
 ]

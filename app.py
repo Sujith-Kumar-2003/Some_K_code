@@ -25,7 +25,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.title("🇰🇷 Daily Korean Practice")
-st.markdown("Test your Hangul reading skills! Type the romanization/English, OR tap the mic to speak the Korean word.")
+st.markdown("Test your Hangul reading skills! Type the romanization/English, OR tap the mic to speak.")
 st.divider()
 
 # 2. Logic Functions
@@ -34,11 +34,11 @@ def load_words(filepath="data/daily_words.json"):
         return json.load(file)
 
 def check_answer(user_input, current_word):
-    # FIRST CHECK: If the user spoke via mic, it will output Hangul. Check if it matches exactly.
-    if user_input.strip() == current_word['korean']:
+    # FIRST CHECK (Voice): If the microphone heard the correct Hangul anywhere in the sentence, pass them!
+    if current_word['korean'] in user_input:
         return 1.0
 
-    # SECOND CHECK: Fallback to the typing logic (romanization + english)
+    # SECOND CHECK (Text): Fallback to the typing logic (romanization + english)
     clean_user = " ".join(user_input.replace("/", " ").lower().split())
     clean_target = f"{current_word['romanization'].lower()} {current_word['english'].lower()}"
     clean_target = " ".join(clean_target.split())
@@ -47,7 +47,7 @@ def check_answer(user_input, current_word):
 
 def get_hint(current_word):
     first_letter = current_word["romanization"][0].lower()
-    return f"<span class='hint-text'>💡 Hint: Type both! Format it like '{first_letter}... / {current_word['english'].lower()}' or just use a space!</span>"
+    return f"<span class='hint-text'>💡 Hint: Type both! Format it like '{first_letter}... / {current_word['english'].lower()}' or use the mic!</span>"
 
 def render_chat_history():
     for msg in st.session_state.messages:
@@ -91,14 +91,11 @@ render_chat_history()
 # 6. Handle User Input
 if not st.session_state.quiz_complete:
     
-    # 6a. Voice Input Component (Sits right above the chat input)
     st.markdown("🎙️ **Or speak the word:**")
     voice_input = speech_to_text(language='ko-KR', use_container_width=True, just_once=True, key='STT')
     
-    # 6b. Text Input Component
     text_input = st.chat_input("Type 'romanization / english' or 'romanization english'...")
     
-    # 6c. Combine inputs (Use whatever they interacted with)
     user_input = text_input or voice_input
     
     if user_input:
@@ -117,8 +114,8 @@ if not st.session_state.quiz_complete:
                 exact_answer = f"{current_word['romanization']} / {current_word['english']}".lower()
                 
                 if similarity == 1.0:
-                    # If they spoke it perfectly in Korean, acknowledge that!
-                    if user_input.strip() == current_word['korean']:
+                    # Confirm they got the perfect score via voice (Hangul match)
+                    if current_word['korean'] in user_input:
                         prefix = "✅ **Perfect Pronunciation!** 🎙️🎉"
                     else:
                         prefix = "✅ **Correct!** 🎉"

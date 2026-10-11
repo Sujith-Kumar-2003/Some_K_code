@@ -1,7 +1,4 @@
-add like a page like with all the hangeul page with all the words and when i click at some of the letter it should be read out loud
-and also like add this tab to the sidebar
 
-need to add speed reading page
 
-need to add audio to cross match and check_answer
+
 
