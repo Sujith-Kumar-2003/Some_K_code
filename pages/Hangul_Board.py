@@ -81,9 +81,31 @@ html_code = """
 
 
     <script>
+        // Pre-load voices so they are ready instantly
+        window.speechSynthesis.onvoiceschanged = function() {
+            window.speechSynthesis.getVoices();
+        };
+
         function speak(text) {
-            let utterance = new SpeechSynthesisUtterance(text);
+            // Cancel any currently playing sound so they don't overlap
+            window.speechSynthesis.cancel();
+            
+            // Add a period to force a natural, human-like ending inflection
+            let utterance = new SpeechSynthesisUtterance(text + ".");
             utterance.lang = 'ko-KR'; 
+            
+            // Slow down the speaking rate (1.0 is default, 0.7 is clearer for learning)
+            utterance.rate = 0.7; 
+            
+            // Attempt to find a high-quality premium voice if the browser supports it
+            let voices = window.speechSynthesis.getVoices();
+            let koreanVoices = voices.filter(v => v.lang.includes('ko'));
+            if (koreanVoices.length > 0) {
+                // Look for a Google, Premium, or Siri voice first
+                let premiumVoice = koreanVoices.find(v => v.name.includes('Google') || v.name.includes('Premium') || v.name.includes('Siri'));
+                utterance.voice = premiumVoice ? premiumVoice : koreanVoices[0];
+            }
+
             window.speechSynthesis.speak(utterance);
         }
     </script>
